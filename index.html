@@ -16,33 +16,80 @@
 
     <title>RocketCoffe</title>
   </head>
+
   <body>
+
       <div id="container">
         <header>
-          <a href="#"><img src="assets/logo-desktop.svg" alt=""></a>
+          <nav id="nav-bar-desktop">
+            <div id="nav-logo-desktop">
+              <img src="assets/logo-desktop.svg" alt="">
+            </div>
 
-          <nav>
-            <ul>
-              <li>Home</li>
-              <li>Menu</li>
-              <li>Recompensas</li>
-              <li>Gift Cards</li>
-              <li>Lojas</li>
-            </ul>
+            <div id="nav-list-desktop">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Recompensas</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Lojas</a></li>
+              </ul>
+            </div>
+
+            <div id="nav-button-desktop">
+              <a href="#">Pegar meu café</a>
+            </div>
           </nav>
 
-          <a href="#" class="button">Pegar meu café</a>
+          <nav id="nav-bar-mobile">
+            <div id="nav-logo-mobile">
+              <img src="assets/logo-mobile.svg" alt="">
+            </div>
+
+            <div id="nav-button-mobile">
+              <button id="btn-mobile">
+                <img src="assets/menu-buguer-open.svg" alt="">
+              </button>
+            </div>
+
+            <div id="nav-list-mobile">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Recompensas</a></li>
+                <li><a href="#">Gift Cards</a></li>
+                <li><a href="#">Lojas</a></li>
+              </ul>
+            </div>
+          </nav>
+
         </header>
 
         <main>
-            <h1>Great Coffee</h1>
-            <h1> < Great Code /></h1>
+            <section id="section-desktop">
+              <h1>Great Coffee</h1>
+              <h1 id="stroke"></h1>
+            </section>
+
+            <section id="section-mobile">
+              <div id="section-button-mobile">
+                <a href="#">Pegar meu café</a>
+              </div>
+
+              <div id="">
+                <h1>Great Coffee</h1>
+                <h1 class="stroke"></h1>
+              </div>
+            </section>
+            
         </main>
 
         <footer>
           <img src="assets/rocket-coffee.png" alt="">
         </footer>
-
       </div>
+
+      <script src="script.js"></script>
+
   </body>
 </html>
