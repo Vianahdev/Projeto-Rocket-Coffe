@@ -1,0 +1,105 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+
+:root {
+  --backgrond: #000;
+  --text-color: #FFF;
+  --button: #8257E5;
+  --border: #29292E;
+  --border-menu-mobile: #A8A8B3;
+  --text-color-menu-mobile: #E1E1E6;
+}
+
+
+#container{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 20vh 30vh 50vh;
+
+  grid-template-areas: "header header header"
+                       "main main main"
+                       "footer footer footer";
+}
+
+body{
+  background-image: url(assets/blur.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: var(--backgrond);
+}
+
+header {
+  grid-area: header;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  color: var(--text-color);
+
+  padding: 0 50px;
+
+  font-weight: 400;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+nav > ul{
+  display: flex;
+  gap: 15px;
+  list-style: none;
+}
+
+.button{
+  border: 1px solid var(--button);
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+main {
+  grid-area: main;
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+
+  color: var(--text-color);
+}
+
+main > h1{
+  text-align: center;
+  font-weight: 700;
+  font-size: 90px;
+}
+
+main > h1:nth-child(2){
+  color: #8257E5;
+  font-family: sans-serif;
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 2px;
+}
+
+footer{
+  grid-area: footer;
+
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+
+
+
