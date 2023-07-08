@@ -189,10 +189,6 @@ footer{
     color: var(--text-color-menu-mobile);
   }
 
-  #nav-list-mobile ul li a{
-    
-  }
-
   #nav-list-mobile ul li:hover{
     border-left: 5px solid var(--button);
 
@@ -272,5 +268,6 @@ footer{
   footer img{
     width: 100vw;
   }
+
 }
 
