@@ -2,7 +2,7 @@
   "recommendations": [
     "esbenp.prettier-vscode",
     "PKief.material-icon-theme",
-    "binaryify.One-Dark-Pro",
+    "DraculaTheme.Dracula-Official",
     "ritwickdey.LiveServer"
   ]
 }
